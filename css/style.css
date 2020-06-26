@@ -53,14 +53,12 @@ html, body {
 /* Texto */
 
 h1 {
-    padding: 20px;
-    margin-top: 100px;
+    margin: 100px 0;
 }
 
 .titulo-principal {
     font-family: Monument Extended;
     font-size: 6vw;
-    letter-spacing: 3px;
     font-weight: bold; 
     text-align: center;
     text-transform: uppercase;
@@ -68,18 +66,15 @@ h1 {
 
 .titulo-secundario {
     font-family: Monument Extended;
-    letter-spacing: 3px;
     font-weight: bold; 
     text-align: center;
     text-transform: uppercase;
     font-size: 5vw;
-    margin: 0;
-    padding: 200px;
+    margin: 100px 0;
 }
 
 .subtitulo {
     font-family: Monument Extended;
-    letter-spacing: 3px;
     font-weight: bold; 
     text-align: center;
     text-transform: uppercase;
@@ -96,6 +91,8 @@ h1 {
     font-size: 150;
     
 }
+
+
 
 .links {
     font-family: Jost;
@@ -138,10 +135,7 @@ nav a{
     
 }
 
-.hero-size {
-    height: 450px;
-    margin-bottom: 180px;
-}
+
 
 
 
@@ -315,6 +309,8 @@ nav a{
 /* DESKTOP */
 
 @media (min-width: 992px) { 
+
+
     .col-1 {
         grid-column-start: 1;
     }
