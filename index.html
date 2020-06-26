@@ -10,19 +10,26 @@
 </head>
 <body>
 
-    <header>
+<header>
         
-        <div>
-            <h1 class="titulo-principal color-acento">Eyez Wide Open</h1>
-            <!-- <nav class="links-flex nav-wrapper">
-                    <a class="links color-acento" href="#">About</a>
-                    <a class="links color-acento" href="#">Contacto</a>
-            </nav> -->
-        </div>
+    <div>
+        <nav class="links-flex nav-wrapper">
+            <a class="links color-acento" href="#musica">Música</a>
+            <a class="links color-acento" href="#ilustracion">Ilustración</a>
+            <a class="links color-acento" href="#editorial">Editorial</a>
+        </nav>
+        <h1 class="titulo-principal h1-size color-acento">Eyez Wide Open</h1>
+    </div>
         
-    </header>
+</header>
+
+<main>
+    <div class="aspect-ratio-ultrawide">
+        <img src="/imagenes/Ilustracion/Ilustracion49.jpg" alt="" class="image-ultrawide">
+    </div>
+
     
-    <h2 class="titulo-secundario color-acento">Música</h2>
+    <h2 class="titulo-secundario h2-size color-acento" id="musica">Música</h2>
     <div class="grid">
         <div class="grid-image-container col-span-2 resp-col-span-4 row-span-1">
             <img src="/imagenes/Musica/musica7.jpg" alt="" class="grid-image">
@@ -55,20 +62,20 @@
     
 
 
-    <div class="titulo-secundario color-acento">Editorial</div>
+    <h2 class="titulo-secundario h2-size color-acento" id="editorial">Editorial</h2>h2>
     
     <div class="grid">
 
         <div class="grid-image-container col-span-8 resp-col-span-8">
             <img src="/imagenes/Editorial/Editorial21.jpg" alt="" class="grid-image">
         </div>
-        <h3 class="subtitulo col-span-8 resp-col-span-8 color-acento">Fanzine //Verano//</h3>
-        <div class="grid-image-container col-span-8 resp-col-span-8">
+        <h3 class="subtitulo h3-size col-span-8 resp-col-span-8 color-acento">Fanzine //Verano//</h3>
+        <div class="grid-image-container col-span-6 resp-col-span-8 col-2">
             <img src="/imagenes/Editorial/Editorial1.png" alt="" class="grid-image">
         </div>
 
 
-        <h3 class="subtitulo col-span-8 resp-col-span-8 color-acento">Infografías</h3>
+        <h3 class="subtitulo h3-size col-span-8 resp-col-span-8 color-acento">Infografías</h3>
 
 
         <div class="grid-image-container col-span-4 resp-col-span-8 row-span-3 row-6">
@@ -82,7 +89,7 @@
 
     <div class="grid">
 
-        <h3 class="subtitulo col-span-8 resp-col-span-8 color-acento">El Incal</h3>
+        <h3 class="subtitulo col-span-8 h3-size resp-col-span-8 color-acento">El Incal</h3>
         <div class="flex-column col-span-4 resp-col-span-8 row-span-3 end">
             <div class="grid-image-container">
                 <img src="/imagenes/Editorial/Editorial29.jpg" alt="" class="grid-image">
@@ -126,7 +133,7 @@
     
     
     
-    <h2 class="titulo-secundario color-acento">Ilustración</h2>
+    <h2 class="titulo-secundario h2-size color-acento" id="ilustracion" >Ilustración</h2>
     <div class="grid">
         <div class="grid-image-container cuadrado col-span-4 resp-col-span-8 row-span-1">
             <img src="/imagenes/Ilustracion/Ilustracion9.jpg" alt="" class="grid-image2">
@@ -155,6 +162,11 @@
         
     </div>
 
+    <footer class="footer-size flex-column">
+        <a class="link-footer color-acento" href="mailto:eyezwideopen@gmail.com">Contactame!</a>
+    </footer>
+    
+</main>
             
 </body>
 </html>
